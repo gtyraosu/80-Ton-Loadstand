@@ -1,0 +1,43 @@
+Name,Units,DAQ Channel
+Tsuc,C,Mod5/RTD0
+Tdis,C,Mod5/RTD1
+Tdis2,C,EMod2/TC0
+T04,C,EMod2/TC1
+T05,C,EMod2/TC2
+Tsuc2,C,EMod2/TC3
+T07,C,EMod2/TC4
+Tamb,C,EMod2/TC5
+Twi,C,EMod2/TC6
+Twe,C,EMod2/TC7
+Psuc,bar,Mod4/AI0
+Pdis,bar,Mod4/AI1
+Pdis2,bar,Mod4/AI2
+P04,bar,Mod4/AI3
+P05,bar,Mod4/AI4
+Psuc2,bar,Mod4/AI5
+P07,bar,Mod4/AI6
+Poil,bar,Mod4/AI7
+Poil2,bar,Mod4/AI8
+Mdis,kg/s,Mod3/AI0
+Msuc,kg/s,Mod3/AI6
+M03,kg/s,Mod3/AI2
+M04,kg/s,Mod3/AI4
+Moil,kg/s,Mod3/AI8
+Dens_oil1,g/mL,Mod3/AI9
+Moil2,kg/s,Mod3/AI10
+Dens_oil1,g/mL,Mod3/AI11
+Pamb,bar,Mod7/AI0
+Speed,Hz,Mod8/AI0
+Power,kW,
+eta_is,,
+Q_dot,kW,
+eta_vol,,
+DT_sup,C,
+DT_sub,C,
+Pressure Ratio,,
+Bypass Position,,
+Water Pump Speed,Hz,
+MG,,
+SG,,
+ML,,
+SL,,

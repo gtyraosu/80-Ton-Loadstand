@@ -1,0 +1,41 @@
+Name,Units
+Psuc,bar
+Tsuc,C
+Pdis,bar
+Tdis,C
+Msuc,kg/s
+Mdis,kg/s
+Speed,Hz
+Pamb,bar
+Poil,bar
+Moil,kg/s
+Tsuc2,C
+Psuc2,bar
+Tdis2,C
+Pdis2,bar
+T04,C
+P04,bar
+T05,C
+P05,C
+M03,kg/s
+M04,kg/s
+T07,C
+P07,bar
+Poil2,bar
+Moil2,kg/s
+Power,kW
+eta_is,
+Q_dot,kW
+eta_vol,
+DT_sup,C
+DT_sub,C
+Pressure Ratio,
+Tamb,C
+Twi,C
+Twe,C
+Bypass Position,
+Water Pump Speed,Hz
+MG,
+SG,
+ML,
+SL,
