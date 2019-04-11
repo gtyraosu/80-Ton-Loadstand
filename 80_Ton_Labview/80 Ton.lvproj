@@ -1576,6 +1576,7 @@ DirectoryIndex index.htm
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/betsrgadmin/Desktop/80_Labview/80_Ton_Labview/FPGA Bitfiles/accelerometer.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9035</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -2538,7 +2539,7 @@ DirectoryIndex index.htm
 				</Item>
 				<Item Name="Mod2" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
-					<Property Name="crio.Location" Type="Str">Slot 2</Property>
+					<Property Name="crio.Location" Type="Str">Slot 3</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
 					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
 					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
@@ -2552,22 +2553,22 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.AI1.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI1.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI10.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI10.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI10.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI10.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI11.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI11.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI11.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI11.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI12.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI12.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI12.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI12.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI13.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI13.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI13.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI13.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI14.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI14.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI14.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI14.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI15.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI15.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI15.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI15.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI16.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI17.Terminal Mode" Type="Str">0</Property>
@@ -2595,26 +2596,26 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.AI4.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI4.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI5.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI5.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI5.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI5.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI6.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI6.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI6.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI6.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI7.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI7.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI7.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI7.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI8.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI8.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI8.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI8.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI9.DegreeRange" Type="Str">2</Property>
-					<Property Name="cRIOModule.AI9.TCoupleType" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI9.TCoupleType" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI9.Terminal Mode" Type="Str">0</Property>
 					<Property Name="cRIOModule.Conversion Time" Type="Str">1</Property>
 					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.Enable Open TC Detection" Type="Str">true</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="ECAT.Description" Type="Str">16-Ch, 24-Bit Analog Input</Property>
-					<Property Name="ECAT.Module.Address" Type="UInt">2</Property>
+					<Property Name="ECAT.Module.Address" Type="UInt">3</Property>
 					<Property Name="ECAT.Module.HasOD" Type="Bool">true</Property>
 					<Property Name="ECAT.Module.Identity" Type="UInt">9214</Property>
 					<Property Name="ECAT.Module.PDOGroup" Type="UInt">0</Property>
@@ -3005,20 +3006,20 @@ DirectoryIndex index.htm
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
-				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
-				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
-				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="ex_SmoothingDesign.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/ex_SmoothingDesign.vi"/>
-				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
 				<Item Name="ex_GetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_GetAllExpressAttribs.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
+				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="ex_SmoothingDesign.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/ex_SmoothingDesign.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
+				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
 			</Item>
 			<Item Name="Display TEDS Data.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/CompactRIO/Shared/Display TEDS Data.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
