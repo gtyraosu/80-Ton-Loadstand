@@ -36,8 +36,8 @@ Moil2,kg/s,Mod3/AI10
 Dens_oil1,g/mL,Mod3/AI11
 Pamb,bar,Mod7/AI0
 Speed,Hz,Mod8/AI0
-x_acc,Hz,
-y_acc,Hz,
+x_acc,g,
+y_acc,g,
 Power,kW,
 eta_is,,
 Q_dot,kW,
