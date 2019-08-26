@@ -9,6 +9,14 @@ T07,F,EMod2/TC4
 Tamb,F,EMod2/TC5
 Twi,F,EMod2/TC6
 Twe,F,EMod2/TC7
+Tm2,F,
+Tm3,F,
+Tm4,F,
+Tm5,F,
+Tm6,F,
+Tm7,F,
+Tm8,F,
+Tm9,F,
 Psuc,psia,Mod4/AI0
 Pdis,psia,Mod4/AI1
 Pdis2,psia,Mod4/AI2
@@ -28,6 +36,8 @@ Moil2,lbm/min,Mod3/AI10
 Dens_oil1,g/mL,Mod3/AI11
 Pamb,psia,Mod7/AI0
 Speed,Hz,Mod8/AI0
+x_acc,g,
+y_acc,g,
 Power,kW,
 eta_is,,
 Q_dot,Btu/h,

@@ -30,6 +30,16 @@ eta_vol,
 DT_sup,F
 DT_sub,F
 Pressure Ratio,
+x_acc,g
+y_acc,g
+Tm2,F
+Tm3,F
+Tm4,F
+Tm5,F
+Tm6,F
+Tm7,F
+Tm8,F
+Tm9,F
 Tamb,F
 Twi,F
 Twe,F
