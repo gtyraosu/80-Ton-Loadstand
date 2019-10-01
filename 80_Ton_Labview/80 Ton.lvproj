@@ -17,6 +17,7 @@
 	<Property Name="varPersistentID:{22449CF1-F519-4E97-92BC-D05609720F09}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO0</Property>
 	<Property Name="varPersistentID:{24A08276-F9A7-48CD-903C-5FED40142F39}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 2.lvlib/Data</Property>
 	<Property Name="varPersistentID:{261770A6-0AF5-4667-A06F-6A007ACBB968}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI25</Property>
+	<Property Name="varPersistentID:{2769404A-CF96-4E20-928B-5756341EA095}" Type="Ref">/My Computer/Untitled Library 5.lvlib/appended array</Property>
 	<Property Name="varPersistentID:{2A85EBC6-7D91-4907-9256-5D49DB8A3802}" Type="Ref">/NI-cRIO-9035-01CA85F4/RTDlib.lvlib/RTD Data</Property>
 	<Property Name="varPersistentID:{2CC09A10-8E2D-488F-9A27-DF0ABB78804F}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC12</Property>
 	<Property Name="varPersistentID:{2CFFF8D5-3483-454E-8835-66FAED4D3777}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC2</Property>
@@ -122,6 +123,7 @@
 	<Property Name="varPersistentID:{F7D761FF-5F56-4791-A4A4-68C644A68B96}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI8</Property>
 	<Property Name="varPersistentID:{F7F018EC-C23B-40E8-B1E0-D9EC39DF9C52}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO6</Property>
 	<Property Name="varPersistentID:{F900275D-8FBC-48F1-ADEF-C3CE6E819C84}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO7</Property>
+	<Property Name="varPersistentID:{F919A324-A8FE-41D6-84E2-A8ACC985F2CB}" Type="Ref">/NI-cRIO-9035-01CA85F4/Set Points.lvlib/Set Points</Property>
 	<Property Name="varPersistentID:{F93F008B-8653-4926-AD5A-C48262D3B8D9}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO3</Property>
 	<Property Name="varPersistentID:{FB7D31D1-3116-40EB-A9F2-C1FBBA83393E}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI1</Property>
 	<Property Name="varPersistentID:{FD7532F5-6CA8-4234-95C0-E35FA3A098FF}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 3.lvlib/output cluster 2</Property>
@@ -151,6 +153,7 @@
 		<Item Name="creat tasks.vi" Type="VI" URL="../creat tasks.vi"/>
 		<Item Name="Create Sat Curves.vi" Type="VI" URL="../Create Sat Curves.vi"/>
 		<Item Name="Do Non-Critical Stuff.vi" Type="VI" URL="../Do Non-Critical Stuff.vi"/>
+		<Item Name="import matrix.vi" Type="VI" URL="../import matrix.vi"/>
 		<Item Name="import tccalib.vi" Type="VI" URL="../import tccalib.vi"/>
 		<Item Name="import thermocouples.vi" Type="VI" URL="../import thermocouples.vi"/>
 		<Item Name="import variables.vi" Type="VI" URL="../import variables.vi"/>
@@ -158,6 +161,9 @@
 		<Item Name="QueueTemp.vi" Type="VI" URL="../QueueTemp.vi"/>
 		<Item Name="rearrangetemp.vi" Type="VI" URL="../rearrangetemp.vi"/>
 		<Item Name="saturation curves.vi" Type="VI" URL="../saturation curves.vi"/>
+		<Item Name="Send Text using SMTP API.vi" Type="VI" URL="../Send Text using SMTP API.vi"/>
+		<Item Name="Uncertainty Calcs.vi" Type="VI" URL="../Uncertainty Calcs.vi"/>
+		<Item Name="Untitled Library 5.lvlib" Type="Library" URL="../Untitled Library 5.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -264,12 +270,15 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -282,6 +291,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1577,7 +1587,6 @@ DirectoryIndex index.htm
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/betsrgadmin/Desktop/80_Labview/80_Ton_Labview/FPGA Bitfiles/accelerometer.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9035</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -2863,6 +2872,7 @@ DirectoryIndex index.htm
 		<Item Name="oil valves.vi" Type="VI" URL="../oil valves.vi"/>
 		<Item Name="PTRead.vi" Type="VI" URL="../PTRead.vi"/>
 		<Item Name="Queue.vi" Type="VI" URL="../Queue.vi"/>
+		<Item Name="Set Points.lvlib" Type="Library" URL="../Set Points.lvlib"/>
 		<Item Name="RawDataSave.vi" Type="VI" URL="../RawDataSave.vi"/>
 		<Item Name="RawHeader.vi" Type="VI" URL="../RawHeader.vi"/>
 		<Item Name="rearrange.vi" Type="VI" URL="../rearrange.vi"/>
@@ -3021,6 +3031,8 @@ DirectoryIndex index.htm
 				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
 				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
 				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
+				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 			</Item>
 			<Item Name="Display TEDS Data.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/CompactRIO/Shared/Display TEDS Data.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -3033,6 +3045,8 @@ DirectoryIndex index.htm
 			<Item Name="findvar.vi" Type="VI" URL="../../Z/Students/singleton/Users/jsing/Desktop/Load_stand_REV.03zip/40 Ton VIs/40 Ton VIs/findvar.vi"/>
 			<Item Name="valves_water_bypass_3.vi" Type="VI" URL="../valves_water_bypass_3.vi"/>
 			<Item Name="valves_water_bypass_2.vi" Type="VI" URL="../valves_water_bypass_2.vi"/>
+			<Item Name="Send Text using SMTP API.vi" Type="VI" URL="../Send Text using SMTP API.vi"/>
+			<Item Name="import matrix.vi" Type="VI" URL="../import matrix.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
