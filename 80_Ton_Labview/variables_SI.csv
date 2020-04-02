@@ -10,7 +10,7 @@ Tamb,C,EMod2/TC5
 Twi,C,EMod2/TC6
 Twe,C,EMod2/TC7
 Tm2,C,
-Tm3,C,
+Tbox,C,
 Tm4,C,
 Tm5,C,
 Tm6,C,
@@ -33,7 +33,7 @@ M04,kg/s,Mod3/AI4
 Moil,kg/s,Mod3/AI8
 Dens_oil1,g/mL,Mod3/AI9
 Moil2,kg/s,Mod3/AI10
-Dens_oil1,g/mL,Mod3/AI11
+Dens_oil2,g/mL,Mod3/AI11
 Pamb,bar,Mod7/AI0
 Speed,Hz,Mod8/AI0
 x_acc,g,

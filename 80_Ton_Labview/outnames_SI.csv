@@ -33,7 +33,7 @@ Pressure Ratio,
 x_acc,g
 y_acc,g
 Tm2,C
-Tm3,C
+Tbox,C
 Tm4,C
 Tm5,C
 Tm6,C
