@@ -5,11 +5,11 @@ Tdis2,F,EMod2/TC0
 T04,F,EMod2/TC1
 T05,F,EMod2/TC2
 Tsuc2,F,EMod2/TC3
-T07,F,EMod2/TC4
+Tecon,F,EMod2/TC4
 Tamb,F,EMod2/TC5
 Twi,F,EMod2/TC6
 Twe,F,EMod2/TC7
-Tm2,F,
+Toil,F,
 Tbox,F,
 Tm4,F,
 Tm5,F,
@@ -23,7 +23,7 @@ Pdis2,psia,Mod4/AI2
 P04,psia,Mod4/AI3
 P05,psia,Mod4/AI4
 Psuc2,psia,Mod4/AI5
-P07,psia,Mod4/AI6
+Pecon,psia,Mod4/AI6
 Poil,psia,Mod4/AI7
 Poil2,psia,Mod4/AI8
 Mdis,lbm/min,Mod3/AI0
@@ -39,12 +39,16 @@ Speed,Hz,Mod8/AI0
 x_acc,g,
 y_acc,g,
 Power,kW,
+P_reactive,kVAR,
+Shaft Power,kW,
+Torque,in-lb,
 eta_is,,
 Q_dot,Btu/h,
 eta_vol,,
 DT_sup,F,
 DT_sub,F,
 Pressure Ratio,,
+eta_is_2,,
 Bypass Position,,
 Water Pump Speed,Hz,
 LG,,
@@ -53,8 +57,8 @@ SG,,
 LL,,
 ML,,
 SL,,
-Speed2,Hz,
-Power2,kW,
+Encoder Speed,RPM,
+VFD Power,kW,
 VFD_out,Hz,
 Kc_LG,,
 Ti_LG,min,

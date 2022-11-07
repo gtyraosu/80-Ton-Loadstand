@@ -19,11 +19,14 @@ T05,C
 P05,C
 M03,kg/s
 M04,kg/s
-T07,C
-P07,bar
+Tecon,C
+Pecon,bar
 Poil2,bar
 Moil2,kg/s
 Power,kW
+P_reactive,kVAR
+Shaft Power,kW
+Torque,N-m
 eta_is,
 Q_dot,kW
 eta_vol,
@@ -32,7 +35,7 @@ DT_sub,C
 Pressure Ratio,
 x_acc,g
 y_acc,g
-Tm2,C
+Toil,C
 Tbox,C
 Tm4,C
 Tm5,C
@@ -51,8 +54,9 @@ SG,
 LL,
 ML,
 SL,
-Speed2,Hz
-Power2,kW
+Encoder Speed,RPM
+VFD Power,kW
+eta_is_2,
 VFD_out,Hz
 Kc_LG,
 Ti_LG,min

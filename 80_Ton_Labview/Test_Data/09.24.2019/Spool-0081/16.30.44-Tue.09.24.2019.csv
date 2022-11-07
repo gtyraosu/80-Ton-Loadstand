@@ -1,0 +1,12 @@
+OSU 80 Ton Compressor Load Stand
+J Singleton
+Measured on:
+Tuesday, September 24, 2019
+4:30:44 PM
+
+1
+Test Comments:
+
+Measurements:
+Psuc,Tsuc,Pdis,Tdis,Msuc,Mdis,Speed,Pamb,Poil,Moil,Tsuc2,Psuc2,Tdis2,Pdis2,T04,P04,T05,P05,M03,M04,T07,P07,Poil2,Moil2,Power,eta_is,Q_dot,eta_vol,DT_sup,DT_sub,Pressure Ratio,x_acc,y_acc,Tm2,Tm3,Tm4,Tm5,Tm6,Tm7,Tm8,Tm9,Tamb,Twi,Twe,Bypass Position,Water Pump Speed,MG,SG,ML,SL,Speed2,Power2
+psia,F,psia,F,lbm/min,lbm/min,Hz,psia,psia,lbm/min,F,psia,F,psia,F,psia,F,F,lb/min,lb/min,F,psia,psia,lbm/min,kW,,Btu/h,,F,F,,g,g,F,F,F,F,F,F,F,F,F,F,F,,Hz,,,,,Hz,kW

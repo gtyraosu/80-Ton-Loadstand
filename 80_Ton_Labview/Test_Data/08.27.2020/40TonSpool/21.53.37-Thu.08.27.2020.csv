@@ -1,0 +1,12 @@
+OSU 80 Ton Compressor Load Stand
+J Singleton
+Measured on:
+Thursday, August 27, 2020
+9:53:37 PM
+First Test
+1
+Test Comments:
+
+Measurements:
+Psuc,Tsuc,Pdis,Tdis,Msuc,Mdis,Speed,Pamb,Poil,Moil,Tsuc2,Psuc2,Tdis2,Pdis2,T04,P04,T05,P05,M03,M04,Tecon,Pecon,Poil2,Moil2,Power,P_reactive,Shaft Power,Torque,eta_is,Q_dot,eta_vol,DT_sup,DT_sub,Pressure Ratio,x_acc,y_acc,Toil,Tbox,Tm4,Tm5,Tm6,Tm7,Tm8,Tm9,Tamb,Twi,Twe,Bypass Position,Water Pump Speed,LG,MG,SG,LL,ML,SL,Encoder Speed,VFD Power,eta_is_2,VFD_out,Kc_LG,Ti_LG,Td_LG,Kc_MG,Ti_MG,Td_MG,Kc_SG,Ti_SG,Td_SG,Kc_LL,Ti_LL,Td_LL,Kc_ML,Ti_ML,Td_ML,Kc_SL,Ti_SL,Td_SL,Kc_WVB,Ti_WVB,Td_WVB,Kc_WVI,Ti_WVI,Td_WVI
+psia,F,psia,F,lbm/min,lbm/min,Hz,psia,psia,lbm/min,F,psia,F,psia,F,psia,F,F,lb/min,lb/min,F,psia,psia,lbm/min,kW,kVAR,kW,in-lb,,Btu/h,,F,F,,g,g,F,F,F,F,F,F,F,F,F,F,F,,Hz,,,,,,,RPM,kW,,Hz,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min

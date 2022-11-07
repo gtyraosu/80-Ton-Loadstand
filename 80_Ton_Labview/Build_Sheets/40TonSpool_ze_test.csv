@@ -1,0 +1,12 @@
+OSU 80 -Ton Compressor Load Stand
+40TonSpool_ze_test
+J Singleton
+Measured on:
+Tuesday, January 19, 2021
+3:12:55 PM
+Test Comments:
+
+Measurements:
+Psuc,Tsuc,Pdis,Tdis,Msuc,Mdis,Speed,Pamb,Poil,Moil,Tsuc2,Psuc2,Tdis2,Pdis2,T04,P04,T05,P05,M03,M04,Tecon,Pecon,Poil2,Moil2,Power,P_reactive,Shaft Power,Torque,eta_is,Q_dot,eta_vol,DT_sup,DT_sub,Pressure Ratio,x_acc,y_acc,Toil,Tbox,Tm4,Tm5,Tm6,Tm7,Tm8,Tm9,Tamb,Twi,Twe,Bypass Position,Water Pump Speed,LG,MG,SG,LL,ML,SL,Encoder Speed,VFD Power,eta_is_2,VFD_out,Kc_LG,Ti_LG,Td_LG,Kc_MG,Ti_MG,Td_MG,Kc_SG,Ti_SG,Td_SG,Kc_LL,Ti_LL,Td_LL,Kc_ML,Ti_ML,Td_ML,Kc_SL,Ti_SL,Td_SL,Kc_WVB,Ti_WVB,Td_WVB,Kc_WVI,Ti_WVI,Td_WVI
+psia,F,psia,F,lbm/min,lbm/min,Hz,psia,psia,lbm/min,F,psia,F,psia,F,psia,F,F,lb/min,lb/min,F,psia,psia,lbm/min,kW,kVAR,kW,in-lb,,Btu/h,,F,F,,g,g,F,F,F,F,F,F,F,F,F,F,F,,Hz,,,,,,,RPM,kW,,Hz,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min,,min,min,Purpose of Test, Test Request Number, Build Number, Steady (1 yes 0 no),Raw Data File
+39.812196,61.600743,133.114113,130.408555,85.753965,90.434732,49.756990,14.481760,132.676177,8.034447,61.539601,40.180288,126.894280,132.752540,124.676108,133.247216,102.541343,131.170214,-0.062367,0.032484,32.025740,-235.568785,123.670588,7.660350,23.777067,8.730893,17.542538,993.101554,16.284198,342341.866437,0.913585,17.752080,12.672441,3.341839,0.075935,0.054380,97.244927,75.698444,32.000000,32.000000,32.000000,32.000000,32.000000,32.000000,69.262395,61.696443,97.213766,100.000000,4.367089,18.987342,60.253165,49.226866,10.000000,29.037975,34.409235,0.203010,24.174631,80.399548,49.716085,0.377000,0.879000,0.000000,0.300000,0.809000,0.000000,0.095101,0.670900,0.000000,-0.153000,0.400000,0.000000,-0.030000,0.800000,0.000000,-0.008500,0.100000,0.000000,0.050000,0.800000,0.000000,-0.018000,0.290000,0.000000,,40TonSpool_ze_test,1,1,15.12.55-Tue.01.19.2021.csv

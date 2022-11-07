@@ -4,15 +4,15 @@
 	<Property Name="NI.Project.Description" Type="Str">Reads the input from the mass flow meters</Property>
 	<Property Name="varPersistentID:{003B146F-6166-4778-8AA4-9C6DEB4DE33D}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI17</Property>
 	<Property Name="varPersistentID:{051EB476-B084-4271-B165-87B959B86A62}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI1</Property>
-	<Property Name="varPersistentID:{05522305-388D-4A46-B9CE-B31FFA3B6CFF}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD2</Property>
-	<Property Name="varPersistentID:{05F98841-80D7-4B28-B331-1DD322BE5FA6}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO3</Property>
+	<Property Name="varPersistentID:{08A9EA77-2D5F-47F7-A0B7-BC425961F4C7}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO1</Property>
 	<Property Name="varPersistentID:{0C104BBA-407C-4717-AEC8-FD514CD00644}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI30</Property>
 	<Property Name="varPersistentID:{0FA15FBD-3CD7-4D4F-B1FA-FC06A9DDC4D6}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI23</Property>
 	<Property Name="varPersistentID:{0FB3ADBF-B9EA-4AA4-B716-F1E2180704A1}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO2</Property>
 	<Property Name="varPersistentID:{10705908-67D1-4744-86D1-25474C67DC99}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI4</Property>
-	<Property Name="varPersistentID:{1392F5D2-51CA-45BF-BC58-67C889109664}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD7</Property>
 	<Property Name="varPersistentID:{15064612-2A33-4273-A08B-7C0FDA11F32D}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI11</Property>
 	<Property Name="varPersistentID:{153CC77F-091F-4F30-AD69-1DCAD75EFA04}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI3</Property>
+	<Property Name="varPersistentID:{1555D60D-45E4-412E-BE3C-E77721723EFF}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR0</Property>
+	<Property Name="varPersistentID:{16ECA333-AD15-420D-A7BD-5E231B33F9CC}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR3</Property>
 	<Property Name="varPersistentID:{1793094F-99D4-4EE5-8486-1713F5F48D27}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC4</Property>
 	<Property Name="varPersistentID:{19287F7A-6287-4F3F-9833-629B71BCF907}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI8</Property>
 	<Property Name="varPersistentID:{1D6062B8-9B8A-4978-A029-FDC41056CEC1}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO3</Property>
@@ -29,53 +29,62 @@
 	<Property Name="varPersistentID:{30912696-7E0C-4AA1-A104-C28746BCBFFF}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI13</Property>
 	<Property Name="varPersistentID:{34CB6DC4-C5F0-404A-BBFD-D398358A5ADA}" Type="Ref">/NI-cRIO-9035-01CA85F4/Valves Library.lvlib/Gas Valves Output</Property>
 	<Property Name="varPersistentID:{35F21950-0B7A-4C7C-93A7-EC6FB6659928}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI0</Property>
+	<Property Name="varPersistentID:{36227833-3941-48FA-A64A-4D0A8B696C76}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD7</Property>
 	<Property Name="varPersistentID:{3892FB8D-4702-4FEB-A747-E8A6A6F71545}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO6</Property>
 	<Property Name="varPersistentID:{3C471EB2-9D5C-4577-AAAC-7F515AF47D62}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI9</Property>
 	<Property Name="varPersistentID:{3CE3B48A-2BBB-4279-9CF3-26BF05A82B09}" Type="Ref">/NI-cRIO-9035-01CA85F4/OilValveBoolean.lvlib/appended array</Property>
 	<Property Name="varPersistentID:{3DEED7ED-34F4-4FBD-9B4B-28392913EADD}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI6</Property>
-	<Property Name="varPersistentID:{3E27300F-D31E-4B20-A736-832C56B8646C}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD1</Property>
 	<Property Name="varPersistentID:{402F14C2-6AC9-491A-B958-CB1F5F03FD79}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI0</Property>
 	<Property Name="varPersistentID:{4140AC5B-1523-4C12-875C-3AEA8939F035}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO5</Property>
 	<Property Name="varPersistentID:{42EC3437-266C-40B1-A08E-F30A33035D56}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{42ED3000-F234-415D-96EC-BF476C2A0B9B}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI2</Property>
-	<Property Name="varPersistentID:{46378D29-976C-4C8A-851F-595B942424D3}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO1</Property>
 	<Property Name="varPersistentID:{46711D56-F7B5-4D4E-AE99-9BD7C3E24046}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI9</Property>
 	<Property Name="varPersistentID:{4695FEF5-505D-494C-B077-540B1E51F3BF}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI15</Property>
 	<Property Name="varPersistentID:{46DDF58D-3455-45D4-B01B-5348440562D5}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI26</Property>
 	<Property Name="varPersistentID:{4CDA919C-7B8B-4106-AB23-D8EDDE9BD8A5}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC11</Property>
 	<Property Name="varPersistentID:{4E56B55B-20E3-4CD9-8222-410111CCE25A}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO2</Property>
 	<Property Name="varPersistentID:{4F4BB5F6-4516-4FCC-9606-84993721476B}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI13</Property>
+	<Property Name="varPersistentID:{52D4A1DA-678D-4DC1-A35B-C4B3DD8AB4BD}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD5</Property>
 	<Property Name="varPersistentID:{532C882B-7409-43EF-90BE-251A45114452}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO0</Property>
 	<Property Name="varPersistentID:{53C3AC27-7E95-4184-8D1E-E158ADBAB0CB}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{558E448A-92B4-42C0-B6B8-1FE635F7C9A0}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI6</Property>
 	<Property Name="varPersistentID:{575D68F4-F9D9-4DED-8552-8410EE85EB70}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI4</Property>
+	<Property Name="varPersistentID:{5B562F8E-4E33-45D9-856E-E3F370BA6F1A}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR4</Property>
 	<Property Name="varPersistentID:{5ED30911-3011-4030-93F1-A70994F6334E}" Type="Ref">/NI-cRIO-9035-01CA85F4/TClib.lvlib/TC Data</Property>
 	<Property Name="varPersistentID:{5ED9443B-B996-4AB0-8D47-8363ECD1DBA4}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI21</Property>
+	<Property Name="varPersistentID:{62D6675C-7E47-4D2E-8D84-9C8D18C7D4FB}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR2</Property>
 	<Property Name="varPersistentID:{63AE63C6-5E77-4901-9169-7A7364102244}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/User-Defined Variables/Accelerometer Data</Property>
+	<Property Name="varPersistentID:{640FF98A-E554-4246-B66A-A494CFCFC72E}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD4</Property>
 	<Property Name="varPersistentID:{6539BC00-1845-4019-8621-63E04451FB1B}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI8</Property>
 	<Property Name="varPersistentID:{683CB843-CCFD-4FEB-9105-D1307C330CF9}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI10</Property>
 	<Property Name="varPersistentID:{6A68736F-EE94-4998-8DF8-B3F8DD42B6EE}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC5</Property>
 	<Property Name="varPersistentID:{6A717412-14B4-46B2-8B26-9FD123CE1C72}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC1</Property>
 	<Property Name="varPersistentID:{6B7FD9C1-F66B-4EA9-BE34-7846448B79B3}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO7</Property>
+	<Property Name="varPersistentID:{6D097E16-DC3E-4B46-BA45-7CF566263B0E}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD2</Property>
 	<Property Name="varPersistentID:{6EAE0FE6-2BB2-4D5E-884B-051E58EEBB30}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI7</Property>
 	<Property Name="varPersistentID:{6ED6983B-EB5F-4E6E-99CD-20D9011EBEE1}" Type="Ref">/NI-cRIO-9035-01CA85F4/CalcData.lvlib/Calculated Values</Property>
+	<Property Name="varPersistentID:{72F9CC79-B436-4DC1-9D0E-31D607A1DD69}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR5</Property>
 	<Property Name="varPersistentID:{76F09325-5227-47D4-B913-8FC5D6E55192}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO1</Property>
 	<Property Name="varPersistentID:{77C0A568-CDC3-49AD-83E5-566A70316717}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO5</Property>
 	<Property Name="varPersistentID:{7BAE750D-9636-445E-B62C-55CBA73DB2D0}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 2.lvlib/Stop1</Property>
 	<Property Name="varPersistentID:{7C1B7284-67E2-467C-BD84-BEE4DC3E5D6E}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI15</Property>
 	<Property Name="varPersistentID:{7C3404DF-CBFF-42A8-9070-5D2E44F1E043}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC8</Property>
+	<Property Name="varPersistentID:{7C45205D-3535-4C95-8FEC-3CA07D48A0B0}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR1</Property>
 	<Property Name="varPersistentID:{7CD0A584-9FB4-4061-ADCC-03E6A9C7125B}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI7</Property>
 	<Property Name="varPersistentID:{819A7B97-4F22-454C-A9E1-D953031A8E32}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{837DF4C8-725D-493F-9E61-06BF8E20139D}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO2</Property>
 	<Property Name="varPersistentID:{83B9B4FA-316C-4274-8CF0-7C743384F231}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI14</Property>
 	<Property Name="varPersistentID:{86775895-5A19-4B06-8C92-054C30F95355}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO6</Property>
+	<Property Name="varPersistentID:{8CE7EB9C-C5D5-4512-A69F-D284DD3C1395}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR6</Property>
 	<Property Name="varPersistentID:{8D82DBB0-B2FB-4BDF-B9E4-ED548052065E}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI18</Property>
 	<Property Name="varPersistentID:{8F76BC0A-3264-4BB1-87E9-6919EF87C8E9}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC10</Property>
 	<Property Name="varPersistentID:{90B6F4E5-ED46-4B81-8298-162C5D4C1670}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI19</Property>
 	<Property Name="varPersistentID:{90DB493E-922F-4F67-9FB5-F9C42BEA88AB}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC6</Property>
 	<Property Name="varPersistentID:{90E28B08-F682-409B-9544-037DE95D909B}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI1</Property>
+	<Property Name="varPersistentID:{922C4FE2-5C25-4E4E-AF8F-404F734A2964}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD0</Property>
 	<Property Name="varPersistentID:{9BA496C7-023C-4D48-966E-7333093762B6}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI12</Property>
 	<Property Name="varPersistentID:{9C6CEB56-C25A-4CEC-B9AA-94729C20AB03}" Type="Ref">/NI-cRIO-9035-01CA85F4/RTDlib.lvlib/Stop</Property>
+	<Property Name="varPersistentID:{9C711E08-5C83-4C46-B32B-859EE1FAD860}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO3</Property>
 	<Property Name="varPersistentID:{9CBAC526-AAF5-473D-9F1F-739CF65CC4F7}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI11</Property>
 	<Property Name="varPersistentID:{9CC94E39-DF31-459C-9DE8-997EB32551A0}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 4.lvlib/output cluster</Property>
 	<Property Name="varPersistentID:{9D5102FB-1587-42A2-9B8A-F7E6FC6288EC}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI15</Property>
@@ -84,23 +93,18 @@
 	<Property Name="varPersistentID:{A556FF20-9ED1-453B-8D2D-298E2E9E0922}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO4</Property>
 	<Property Name="varPersistentID:{A5E6AC44-CF0C-4850-BC87-E61CCAD15EAD}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO7</Property>
 	<Property Name="varPersistentID:{A6C9C684-BD3E-4953-B8EF-E1443440C5FC}" Type="Ref">/NI-cRIO-9035-01CA85F4/Valves Library.lvlib/Liquid Valves Output</Property>
-	<Property Name="varPersistentID:{A8338BDE-1530-4E94-A28F-FAD342BC7CBC}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD3</Property>
 	<Property Name="varPersistentID:{A9740232-382C-4345-B0C0-89BA42E3B9C8}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI14</Property>
 	<Property Name="varPersistentID:{A9C53058-72D9-4CA3-8706-A1ACC89B0122}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod6/DO4</Property>
 	<Property Name="varPersistentID:{ABB1EF19-5F5A-458D-964A-25F2558BD7CE}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI27</Property>
 	<Property Name="varPersistentID:{AE8FB7E1-F0A7-4ABC-B39C-F24B4C5BDEE2}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO0</Property>
 	<Property Name="varPersistentID:{AE9FD378-BDBE-41F0-8468-941B8A626360}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC13</Property>
 	<Property Name="varPersistentID:{AED489F7-D934-47C6-982D-0891680109CD}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC9</Property>
-	<Property Name="varPersistentID:{B05B3047-10A7-4CBA-B1B3-ABD30AE13BC7}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD6</Property>
 	<Property Name="varPersistentID:{B5CDDB12-18FF-4062-B532-BB24D65447C5}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI6</Property>
 	<Property Name="varPersistentID:{BABA8D31-A93A-48B9-BA09-F1E73A31817B}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI5</Property>
 	<Property Name="varPersistentID:{BBA5945B-ED08-445C-9741-54D54B5945FC}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI0</Property>
 	<Property Name="varPersistentID:{BE866555-6509-4D47-B6BB-C01D04FF7D26}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI28</Property>
+	<Property Name="varPersistentID:{BFC4A0F6-5F3B-4546-9F58-96175F52BE77}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD6</Property>
 	<Property Name="varPersistentID:{C25B40B3-4E63-4E02-976C-279802F53DDA}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO1</Property>
-	<Property Name="varPersistentID:{C3645A7A-C20E-4372-8E6F-C283979F79FD}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD0</Property>
-	<Property Name="varPersistentID:{C56A12FE-B070-4028-83E1-F57A55E53FCC}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD4</Property>
-	<Property Name="varPersistentID:{C579DDF5-D689-418A-8DE3-54AFBD21B53E}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5/RTD5</Property>
-	<Property Name="varPersistentID:{C7D1E588-891E-481B-8DCC-645587A6A54E}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO2</Property>
 	<Property Name="varPersistentID:{C8FFCA1D-74F1-4767-B0A3-E0A0CA06F13E}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI12</Property>
 	<Property Name="varPersistentID:{C903D79E-83A7-4582-9186-928E7C8982DB}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC15</Property>
 	<Property Name="varPersistentID:{C97B9E63-D4FF-4185-BC39-50C3AB033F6D}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI5</Property>
@@ -115,22 +119,26 @@
 	<Property Name="varPersistentID:{D8E6D9E5-525B-44C9-B6B0-0B009BD7C0EF}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI24</Property>
 	<Property Name="varPersistentID:{DACC31B2-E0E3-438B-8B06-4F5CF33EB677}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI22</Property>
 	<Property Name="varPersistentID:{DD55C069-15A6-48AA-B7BA-A061B116874C}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI31</Property>
+	<Property Name="varPersistentID:{DDC758F0-2FED-4576-8FB0-95439EF026E8}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO2</Property>
 	<Property Name="varPersistentID:{DE270F7F-D830-4415-88C9-498F97190E0B}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI29</Property>
+	<Property Name="varPersistentID:{E17F7304-1FA5-471B-8A24-84BD8F1FF768}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD1</Property>
 	<Property Name="varPersistentID:{E259C829-BDFD-47B7-8B30-171A9754831D}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI11</Property>
 	<Property Name="varPersistentID:{E41751B7-5007-4FB4-861E-013BA2F1BB22}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO5</Property>
 	<Property Name="varPersistentID:{E6485B6D-123D-45C5-B359-F4329A2EC659}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI2</Property>
 	<Property Name="varPersistentID:{E70F87C2-409D-4134-9236-EE944A16D89A}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod3/AI14</Property>
-	<Property Name="varPersistentID:{EB53F7A3-E7EB-4DE1-AD64-93FFB35AFDED}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO0</Property>
 	<Property Name="varPersistentID:{EE1A908D-0D13-4E62-BA22-779187BAF8B3}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI10</Property>
 	<Property Name="varPersistentID:{EFD5ECD1-7E0E-41FF-A0C1-59C004C21109}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC7</Property>
 	<Property Name="varPersistentID:{F09D2F40-5810-4DB5-8712-F7634A44F062}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 1.1.lvlib/cluster</Property>
+	<Property Name="varPersistentID:{F350F361-713A-4FD6-879C-4082C19CD76B}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod5 Digital Input/CTR7</Property>
 	<Property Name="varPersistentID:{F554E14A-64A1-4D1B-AAF8-B0B71D9FD797}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC14</Property>
 	<Property Name="varPersistentID:{F74D0E66-150D-4072-9396-C4C37743037D}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod2/TC0</Property>
 	<Property Name="varPersistentID:{F7D761FF-5F56-4791-A4A4-68C644A68B96}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI8</Property>
 	<Property Name="varPersistentID:{F7F018EC-C23B-40E8-B1E0-D9EC39DF9C52}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod2/AO6</Property>
+	<Property Name="varPersistentID:{F8CA6F92-E712-4649-8096-BA8A94834F50}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod 2 RTDs/RTD3</Property>
 	<Property Name="varPersistentID:{F900275D-8FBC-48F1-ADEF-C3CE6E819C84}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO7</Property>
 	<Property Name="varPersistentID:{F919A324-A8FE-41D6-84E2-A8ACC985F2CB}" Type="Ref">/NI-cRIO-9035-01CA85F4/Set Points.lvlib/Set Points</Property>
 	<Property Name="varPersistentID:{F93F008B-8653-4926-AD5A-C48262D3B8D9}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod1/AO3</Property>
+	<Property Name="varPersistentID:{FB20967A-E814-4CF4-9757-A9F40C7453D0}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod7/AO0</Property>
 	<Property Name="varPersistentID:{FB7D31D1-3116-40EB-A9F2-C1FBBA83393E}" Type="Ref">/NI-cRIO-9035-01CA85F4/Chassis/Real-Time Scan Resources/Mod4/AI1</Property>
 	<Property Name="varPersistentID:{FD7532F5-6CA8-4234-95C0-E35FA3A098FF}" Type="Ref">/NI-cRIO-9035-01CA85F4/Untitled Library 3.lvlib/output cluster 2</Property>
 	<Property Name="varPersistentID:{FFFBFA5F-6062-48F6-BA9D-722153FD65A2}" Type="Ref">/NI-cRIO-9035-01CA85F4/EtherCAT Master/Device/Mod1/AI3</Property>
@@ -348,7 +356,7 @@
 	</Item>
 	<Item Name="NI-cRIO-9035-01CA85F4" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">NI-cRIO-9035-01CA85F4</Property>
-		<Property Name="alias.value" Type="Str">169.254.169.20</Property>
+		<Property Name="alias.value" Type="Str">10.203.12.43</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,77DB;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">77DB</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -1303,131 +1311,6 @@ DirectoryIndex index.htm
 						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
-				<Item Name="Mod5" Type="RIO C Series Module">
-					<Property Name="crio.Calibration" Type="Str">1</Property>
-					<Property Name="crio.Location" Type="Str">Slot 5</Property>
-					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
-					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
-					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
-					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
-					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
-					<Property Name="crio.Type" Type="Str">NI 9216</Property>
-					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
-					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{4811309E-EF03-4072-AC60-E5C8F083E561}</Property>
-					<Item Name="RTD0" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD0</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD1" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD1</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD2" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD2</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD3" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD3</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD4" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD4</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD5" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD5</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD6" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD6</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-					<Item Name="RTD7" Type="Variable">
-						<Property Name="featurePacks" Type="Str">Industrial</Property>
-						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
-						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-						<Property Name="Industrial:Mode" Type="Str">1</Property>
-						<Property Name="Industrial:PhysicalName" Type="Str">RTD7</Property>
-						<Property Name="Network:UseBinding" Type="Str">False</Property>
-						<Property Name="Network:UseBuffering" Type="Str">False</Property>
-						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-					</Item>
-				</Item>
 				<Item Name="Mod6" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 6</Property>
@@ -1576,7 +1459,7 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.HotSwapMode" Type="Str">0</Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{1219BDE3-B247-4109-8F78-87F78CF66C8D}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{B5D8396B-C392-49B1-AD8C-22A4A432154F}</Property>
 					<Item Name="AO0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -1654,14 +1537,339 @@ DirectoryIndex index.htm
 						<Property Name="typeDesc" Type="Bin">9!!!!"=!A!!!!!!"!%B!8Q.2!%!!!!!A!!%!!1!!!#$``````````Q!!!$]!!!!@@`````````]!!!!"````Y1!!!!!!!!!"#U:J?'6E)&amp;"P;7ZU!!%!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
+				<Item Name="Mod5 Digital Input" Type="RIO C Series Module">
+					<Property Name="crio.Calibration" Type="Str">1</Property>
+					<Property Name="crio.Location" Type="Str">Slot 5</Property>
+					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SDCounterCountDir0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir4" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir5" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir6" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountDir7" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent0" Type="Str">1</Property>
+					<Property Name="crio.SDCounterCountEvent0INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent0INTMode1" Type="Str">1</Property>
+					<Property Name="crio.SDCounterCountEvent0INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent0INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent1INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent1INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent1INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent1INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent2INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent2INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent2INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent2INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent3INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent3INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent3INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent3INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent4" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent4INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent4INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent4INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent4INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent5" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent5INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent5INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent5INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent5INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent6" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent6INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent6INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent6INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent6INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent7" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent7INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent7INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountEvent7INTMode2" Type="Str">3</Property>
+					<Property Name="crio.SDCounterCountEvent7INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource0" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource0INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource0INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource0INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource0INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource1INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource1INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource1INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource1INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource2INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource2INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource2INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource2INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource3" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource3INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource3INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource3INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource3INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource4" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource4INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource4INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource4INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource4INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource5" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource5INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource5INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource5INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource5INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource6" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource6INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource6INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource6INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource6INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource7" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource7INTMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterCountSource7INTMode1" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource7INTMode2" Type="Str">2</Property>
+					<Property Name="crio.SDCounterCountSource7INTMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource0INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource0INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource0INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource0INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource1INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource1INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource1INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource1INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource2INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource2INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource2INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource2INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource3INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource3INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource3INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource3INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource4" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource4INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource4INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource4INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource4INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource5" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource5INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource5INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource5INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource5INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource6" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource6INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource6INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource6INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource6INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterGateSource7" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource7INTMode0" Type="Str">3</Property>
+					<Property Name="crio.SDCounterGateSource7INTMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource7INTMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterGateSource7INTMode3" Type="Str">4</Property>
+					<Property Name="crio.SDCounterMeasurement0" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement1" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement2" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement3" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement4" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement5" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement6" Type="Str">1</Property>
+					<Property Name="crio.SDCounterMeasurement7" Type="Str">1</Property>
+					<Property Name="crio.SDCounterOutputMode0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode4" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode5" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode6" Type="Str">0</Property>
+					<Property Name="crio.SDCounterOutputMode7" Type="Str">0</Property>
+					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">112</Property>
+					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount4" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount5" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount6" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTerminalCount7" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase0INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase0INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase0INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase0INTMod3" Type="Str">7</Property>
+					<Property Name="crio.SDCounterTimebase1INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase1INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase1INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase1INTMod3" Type="Str">3</Property>
+					<Property Name="crio.SDCounterTimebase2INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase2INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase2INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase2INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase3INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase3INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase3INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase3INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase4INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase4INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase4INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase4INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase5INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase5INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase5INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase5INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase6INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase6INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase6INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase6INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase7INTMod0" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase7INTMod1" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase7INTMod2" Type="Str">0</Property>
+					<Property Name="crio.SDCounterTimebase7INTMod3" Type="Str">0</Property>
+					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+					<Property Name="crio.SDPWMPeriod0" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod1" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod2" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod3" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod4" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod5" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod6" Type="Str">0</Property>
+					<Property Name="crio.SDPWMPeriod7" Type="Str">0</Property>
+					<Property Name="crio.SDQuadIndexMode0" Type="Str">0</Property>
+					<Property Name="crio.SDQuadIndexMode1" Type="Str">0</Property>
+					<Property Name="crio.SDQuadTimebase0" Type="Str">4</Property>
+					<Property Name="crio.SDQuadTimebase1" Type="Str">0</Property>
+					<Property Name="crio.SupportsDynamicRes" Type="Bool">true</Property>
+					<Property Name="crio.Type" Type="Str">NI 9401</Property>
+					<Property Name="cRIOModule.DigitalIOMode" Type="Str">1</Property>
+					<Property Name="cRIOModule.DIO3_0InitialDir" Type="Str">0</Property>
+					<Property Name="cRIOModule.DIO7_4InitialDir" Type="Str">0</Property>
+					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">true</Property>
+					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{709E9AAC-EC5C-47EB-878B-6ACB77B2EDE9}</Property>
+					<Item Name="CTR0" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR0</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR1" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR1</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR2" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR2</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR3" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR3</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR4" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR4</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR5" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR5</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR6" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR6</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="CTR7" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">CTR7</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+				</Item>
 			</Item>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{1219BDE3-B247-4109-8F78-87F78CF66C8D}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{162B4510-BDAE-47F2-A9A7-75E86B981CED}resource=/crio_Mod7/AI1;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{41BF6CD7-28BD-4AF3-ABA5-FAD669736734}resource=/crio_Mod7/Start;1{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4811309E-EF03-4072-AC60-E5C8F083E561}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{495B3FDF-5504-42A8-903B-FCF27CD22097}resource=/crio_Mod7/AI2;1{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{C2E93C9F-DDDF-460E-940B-3BB805893EF5}resource=/crio_Mod7/Stop;1{C94AC694-D09B-4D80-8884-E961B3AE31D2}resource=/crio_Mod7/AI0;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E2E7F05F-09C4-4EA0-B223-45868954B04D}resource=/crio_Mod7/AI3;1{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+				<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{1C9ABB31-8565-49BA-9A3B-A8CA2B366654}resource=/crio_Mod7/AI3;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{63914049-3ABA-419B-92E1-2EDB8ABC441D}resource=/crio_Mod7/AI0;1{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{709E9AAC-EC5C-47EB-878B-6ACB77B2EDE9}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9BE059E6-1506-46ED-9772-1BB63A1F2848}resource=/crio_Mod7/Start;1{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{B2F16D01-A20D-4EE9-9581-EAE32743BF89}resource=/crio_Mod7/Stop;1{B5D8396B-C392-49B1-AD8C-22A4A432154F}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{B8459905-0AB1-4EAB-8581-0AA2D04D5C61}resource=/crio_Mod7/AI2;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F47649FF-1AEE-42A7-927B-D7489B511859}resource=/crio_Mod7/AI1;1{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5 Digital Input[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/betsrgadmin/Desktop/80_Labview/80_Ton_Labview/FPGA Bitfiles/accelerometer.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">cRIO-9035</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -1780,7 +1988,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C94AC694-D09B-4D80-8884-E961B3AE31D2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{63914049-3ABA-419B-92E1-2EDB8ABC441D}</Property>
 					</Item>
 					<Item Name="Mod7/AI1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1789,7 +1997,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{162B4510-BDAE-47F2-A9A7-75E86B981CED}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F47649FF-1AEE-42A7-927B-D7489B511859}</Property>
 					</Item>
 					<Item Name="Mod7/AI2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1798,7 +2006,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{495B3FDF-5504-42A8-903B-FCF27CD22097}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B8459905-0AB1-4EAB-8581-0AA2D04D5C61}</Property>
 					</Item>
 					<Item Name="Mod7/AI3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1807,7 +2015,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E2E7F05F-09C4-4EA0-B223-45868954B04D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1C9ABB31-8565-49BA-9A3B-A8CA2B366654}</Property>
 					</Item>
 					<Item Name="Mod7/Start" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1816,7 +2024,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{41BF6CD7-28BD-4AF3-ABA5-FAD669736734}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9BE059E6-1506-46ED-9772-1BB63A1F2848}</Property>
 					</Item>
 					<Item Name="Mod7/Stop" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1825,7 +2033,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C2E93C9F-DDDF-460E-940B-3BB805893EF5}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B2F16D01-A20D-4EE9-9581-EAE32743BF89}</Property>
 					</Item>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
@@ -1847,8 +2055,8 @@ DirectoryIndex index.htm
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
 				<Item Name="accelerometer.vi" Type="VI" URL="../FPGA Bitfiles/accelerometer.vi">
-					<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{1219BDE3-B247-4109-8F78-87F78CF66C8D}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{162B4510-BDAE-47F2-A9A7-75E86B981CED}resource=/crio_Mod7/AI1;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{41BF6CD7-28BD-4AF3-ABA5-FAD669736734}resource=/crio_Mod7/Start;1{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4811309E-EF03-4072-AC60-E5C8F083E561}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{495B3FDF-5504-42A8-903B-FCF27CD22097}resource=/crio_Mod7/AI2;1{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{C2E93C9F-DDDF-460E-940B-3BB805893EF5}resource=/crio_Mod7/Stop;1{C94AC694-D09B-4D80-8884-E961B3AE31D2}resource=/crio_Mod7/AI0;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E2E7F05F-09C4-4EA0-B223-45868954B04D}resource=/crio_Mod7/AI3;1{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+					<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{1C9ABB31-8565-49BA-9A3B-A8CA2B366654}resource=/crio_Mod7/AI3;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{63914049-3ABA-419B-92E1-2EDB8ABC441D}resource=/crio_Mod7/AI0;1{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{709E9AAC-EC5C-47EB-878B-6ACB77B2EDE9}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9BE059E6-1506-46ED-9772-1BB63A1F2848}resource=/crio_Mod7/Start;1{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{B2F16D01-A20D-4EE9-9581-EAE32743BF89}resource=/crio_Mod7/Stop;1{B5D8396B-C392-49B1-AD8C-22A4A432154F}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{B8459905-0AB1-4EAB-8581-0AA2D04D5C61}resource=/crio_Mod7/AI2;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F47649FF-1AEE-42A7-927B-D7489B511859}resource=/crio_Mod7/AI1;1{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5 Digital Input[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\betsrgadmin\Desktop\80_Labview\80_Ton_Labview\FPGA Bitfiles\80Ton_FPGATarget_accelerometer_vQr4SS40msc.lvbitx</Property>
 				</Item>
 				<Item Name="IP Builder" Type="IP Builder Target">
@@ -1921,8 +2129,8 @@ DirectoryIndex index.htm
 					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000</Property>
 				</Item>
 				<Item Name="OilValveCurrent.vi" Type="VI" URL="../OilValveCurrent.vi">
-					<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{1219BDE3-B247-4109-8F78-87F78CF66C8D}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{162B4510-BDAE-47F2-A9A7-75E86B981CED}resource=/crio_Mod7/AI1;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{41BF6CD7-28BD-4AF3-ABA5-FAD669736734}resource=/crio_Mod7/Start;1{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4811309E-EF03-4072-AC60-E5C8F083E561}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{495B3FDF-5504-42A8-903B-FCF27CD22097}resource=/crio_Mod7/AI2;1{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{C2E93C9F-DDDF-460E-940B-3BB805893EF5}resource=/crio_Mod7/Stop;1{C94AC694-D09B-4D80-8884-E961B3AE31D2}resource=/crio_Mod7/AI0;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E2E7F05F-09C4-4EA0-B223-45868954B04D}resource=/crio_Mod7/AI3;1{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
+					<Property Name="configString.guid" Type="Str">{0226CB7F-0240-4894-8F9A-C6419F55F4C3}[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{025C1A87-4112-426F-9D37-8D468C4BE64C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]{08B5D1C7-EE6D-4698-AA70-70D0E57B5D11}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{13BC6426-072F-476C-BDCA-5426325AF221}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{1C9ABB31-8565-49BA-9A3B-A8CA2B366654}resource=/crio_Mod7/AI3;1{23AB23D8-36D0-48AD-BCD3-C860FDB9239E}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{38E531E6-5605-4A4E-802A-89B9AD7E41C1}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{3D6298F0-42BD-49E1-B6FF-0BD711AF3773}resource=/crio_Mod8/Stop;0;WriteMethodType=bool{470EF030-1207-4EC9-AD90-0B13D7D7C0E5}resource=/crio_Mod8/Start;0;WriteMethodType=bool{4BD54226-F804-4066-8642-F71B119581D7}resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{5D4C30D2-A37C-40B5-9FBD-E4FA7E002BEB}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{63914049-3ABA-419B-92E1-2EDB8ABC441D}resource=/crio_Mod7/AI0;1{68EE175D-E30E-4E3E-93B6-1A3997CA034D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{709E9AAC-EC5C-47EB-878B-6ACB77B2EDE9}[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]{7A188CE8-4507-4AB9-9FB9-30FE63BBF594}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{9BE059E6-1506-46ED-9772-1BB63A1F2848}resource=/crio_Mod7/Start;1{9D1602E3-EF21-4CE8-8878-68CB1D8938E0}/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0{9E8593B4-EB3A-4440-8C58-F31130A9B5AD}resource=/Scan Clock;0;ReadMethodType=bool{AD960504-64AF-40D9-8980-6106778F6EBC}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{B2F16D01-A20D-4EE9-9581-EAE32743BF89}resource=/crio_Mod7/Stop;1{B5D8396B-C392-49B1-AD8C-22A4A432154F}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{B8459905-0AB1-4EAB-8581-0AA2D04D5C61}resource=/crio_Mod7/AI2;1{DB6B59A7-DE46-4558-9083-DF77DA2E5BD2}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E0C3A358-2E2C-4603-BFC9-EEAA1D1712FD}[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E407CB44-52EB-4568-968F-835B8C8AC5FE}resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctl{EDA01F45-19E6-4B56-B831-CB8B8536DDFA}resource=/Chassis Temperature;0;ReadMethodType=i16{F47649FF-1AEE-42A7-927B-D7489B511859}resource=/crio_Mod7/AI1;1{F6279971-4984-4F26-A9D0-02CC314CEF08}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{FF527DAB-608A-4B96-9B2D-A60D744976C8}resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlcRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Accelerometer Data/name=Accelerometer Datasigned=1/intWordLen=32/fractWordLen=32/delta=1x2^-32/rangeMax=7FFFFFFFFFFFFFFFx2^-32/rangeMin=Fx2^31/overflow=0/direction=0/index=0Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9035/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9035FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAData"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Data;DataType=1000800000000001003C005F03510018000000050001001800000005FFFFFFFFFF800000000100180000000500000000007FFFFF00000001FFFFFFEE000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"FIFO"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=1000800000000001003C005F03510018000000070001001800000007FFFFFFFFFF800000000100180000000700000000007FFFFF00000001FFFFFFF0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1[crioConfig.Begin]crio.Location=Slot 1,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod4[crioConfig.Begin]crio.Location=Slot 4,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5 Digital Input[crioConfig.Begin]crio.Location=Slot 5,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=true[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7/AI0resource=/crio_Mod7/AI0;1Mod7/AI1resource=/crio_Mod7/AI1;1Mod7/AI2resource=/crio_Mod7/AI2;1Mod7/AI3resource=/crio_Mod7/AI3;1Mod7/Startresource=/crio_Mod7/Start;1Mod7/Stopresource=/crio_Mod7/Stop;1Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8/AI0resource=/crio_Mod8/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI1resource=/crio_Mod8/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/AI2resource=/crio_Mod8/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_7.ctlMod8/Startresource=/crio_Mod8/Start;0;WriteMethodType=boolMod8/Stopresource=/crio_Mod8/Stop;0;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9230,cRIOModule.ClockSource=0,cRIOModule.DataRate=10,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=65792,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=true[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\betsrgadmin\Desktop\80_Labview\Z\Students\singleton\Users\jsing\Desktop\Load_stand_REV.03zip\80_Ton_Labview\FPGA Bitfiles\80Ton_FPGATarget_OilValveCurrent_Mgr3mQkFMuk.lvbitx</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
@@ -2060,6 +2268,192 @@ DirectoryIndex index.htm
 				<Property Name="ECAT.Slave.VendorName" Type="Str">National Instruments</Property>
 				<Property Name="ECAT.Slave.WatchdogDivider" Type="UInt">2498</Property>
 				<Property Name="NI.SortType" Type="Int">1</Property>
+				<Item Name="Mod 2 RTDs" Type="RIO C Series Module">
+					<Property Name="crio.Calibration" Type="Str">1</Property>
+					<Property Name="crio.Location" Type="Str">Slot 2</Property>
+					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
+					<Property Name="crio.Type" Type="Str">NI 9216</Property>
+					<Property Name="cRIOModule.AI0.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI0.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI0.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI0.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI0.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI0.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI1.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI1.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI1.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI1.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI1.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI1.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI2.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI2.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI2.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI2.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI2.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI2.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI3.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI3.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI3.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI3.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI3.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI3.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI4.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI4.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI4.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI4.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI4.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI4.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI5.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI5.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI5.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI5.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI5.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI5.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI6.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI6.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI6.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI6.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI6.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI6.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.AI7.DegreeRange" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI7.RTD_A" Type="Str">3.908300E-3</Property>
+					<Property Name="cRIOModule.AI7.RTD_B" Type="Str">-5.775000E-7</Property>
+					<Property Name="cRIOModule.AI7.RTD_C" Type="Str">-4.183000E-12</Property>
+					<Property Name="cRIOModule.AI7.RTD_Ro" Type="Str">1.000000E+2</Property>
+					<Property Name="cRIOModule.AI7.RTDType" Type="Str">1</Property>
+					<Property Name="cRIOModule.Conversion Time" Type="Str">0</Property>
+					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+					<Property Name="ECAT.Description" Type="Str">8-Ch, 100 Ohm RTD, 24-Bit Analog Input</Property>
+					<Property Name="ECAT.Module.Address" Type="UInt">2</Property>
+					<Property Name="ECAT.Module.HasOD" Type="Bool">true</Property>
+					<Property Name="ECAT.Module.Identity" Type="UInt">9216</Property>
+					<Property Name="ECAT.Module.PDOGroup" Type="UInt">0</Property>
+					<Property Name="ECAT.Module.ProductCode" Type="UInt">9216</Property>
+					<Property Name="ECAT.Module.RevisionNo" Type="UInt">1</Property>
+					<Property Name="ECAT.Module.SerialNo" Type="UInt">30043906</Property>
+					<Property Name="ECAT.Module.Type" Type="UInt">0</Property>
+					<Property Name="ECAT.Module.TypeName" Type="Str">NI 9216</Property>
+					<Property Name="ECAT.Module.VendorID" Type="UInt">505</Property>
+					<Property Name="ECAT.Name" Type="Str">Mod 2 RTDs</Property>
+					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
+					<Item Name="RTD0" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD0</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD1" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD1</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD2" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD2</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD3" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD3</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD4" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD4</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD5" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD5</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD6" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD6</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="RTD7" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">RTD7</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">False</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					</Item>
+				</Item>
 				<Item Name="Mod1" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
@@ -2074,7 +2468,7 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.AI1.TerminalMode" Type="Str">2</Property>
 					<Property Name="cRIOModule.AI1.VoltageRange" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI10.TerminalMode" Type="Str">0</Property>
-					<Property Name="cRIOModule.AI10.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI10.VoltageRange" Type="Str">1</Property>
 					<Property Name="cRIOModule.AI11.TerminalMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI11.VoltageRange" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI12.TerminalMode" Type="Str">0</Property>
@@ -2093,8 +2487,8 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.AI18.VoltageRange" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI19.TerminalMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI19.VoltageRange" Type="Str">0</Property>
-					<Property Name="cRIOModule.AI2.TerminalMode" Type="Str">0</Property>
-					<Property Name="cRIOModule.AI2.VoltageRange" Type="Str">0</Property>
+					<Property Name="cRIOModule.AI2.TerminalMode" Type="Str">2</Property>
+					<Property Name="cRIOModule.AI2.VoltageRange" Type="Str">1</Property>
 					<Property Name="cRIOModule.AI20.TerminalMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI20.VoltageRange" Type="Str">0</Property>
 					<Property Name="cRIOModule.AI21.TerminalMode" Type="Str">0</Property>
@@ -2150,6 +2544,7 @@ DirectoryIndex index.htm
 					<Property Name="ECAT.Module.VendorID" Type="UInt">505</Property>
 					<Property Name="ECAT.Name" Type="Str">Mod1</Property>
 					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A933FD64-95B7-435A-8EAA-9076F91E38D6}</Property>
 					<Item Name="AI0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -2689,6 +3084,7 @@ DirectoryIndex index.htm
 					<Property Name="ECAT.Module.VendorID" Type="UInt">505</Property>
 					<Property Name="ECAT.Name" Type="Str">Mod2</Property>
 					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3AE49C3B-F8E4-4642-AAAF-1920C40C0621}</Property>
 					<Item Name="TC0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
